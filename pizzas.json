@@ -1,0 +1,82 @@
+{
+     "PizzasInventory":[
+        {
+            "id": 1,
+            "name": "Margherita",
+            "price": 10.99,
+            "quantity": 15,
+            "image": "default.jpg", 
+            "ingredientIds": [1, 2]
+          },
+          {
+            "id": 2,
+            "name": "Pepperoni",
+            "price": 10.99,
+            "quantity": 15,
+            "image": "default.jpg", 
+            "ingredientIds": [1, 2, 3]
+          },
+          {
+            "id": 3,
+            "name": "Mushroom",
+            "price": 10.99,
+            "quantity": 15,
+            "image": "default.jpg", 
+            "ingredientIds": [1, 2, 7]
+          },
+          {
+            "id": 4,
+            "name": "Vegitaria",
+            "price": 10.99,
+            "quantity": 15,
+            "image": "default.jpg",
+            "ingredientIds": [1, 2, 5]
+          },
+          {
+            "id": 5,
+            "name": "Hawaiian",
+            "price": 10.99,
+            "quantity": 15,
+            "image": "default.jpg",
+            "ingredientIds": [1, 2, 6]
+          }
+        ],
+
+        "Ingridients":[
+            { 
+              "id": 1, 
+              "name": "Tomato Sauce", 
+              "quantity": 50 
+            },
+            { 
+              "id": 2, 
+              "name": "Cheese",
+              "quantity": 100 
+            },
+            { 
+              "id": 3, 
+              "name": "Pepperoni", 
+              "quantity": 30 
+            },
+            { 
+              "id": 4, 
+              "name": "Mushrooms", 
+              "quantity": 20 
+            },
+            { 
+              "id": 5, 
+              "name": "Spinach", 
+              "quantity": 20 
+            },
+            { 
+              "id": 6, 
+              "name": "Pineappple", 
+              "quantity": 20 
+            },
+            { 
+              "id":7, 
+              "name": "Cream", 
+              "quantity": 20 
+            }
+        ]
+}
